@@ -1,0 +1,251 @@
+/************** START ABOUT US PAGE ***************/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.breadcrumb{
+    margin-bottom: 0px;
+}
+
+.breadcrumb a {
+    font-size: 18px;
+}
+
+/************** START UPPER ********/
+.upper {
+    margin-top: 30px;
+}
+
+.upper h2 {
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 0;
+    color: #443;
+}
+.upper h2 span{
+    color: #F1630E
+}
+
+.upper p {
+    color: #343434;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.upper .team-image {
+    background-image: url(../images/about-1.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+/************** MIDDLE UPPER ********/
+
+.middle {
+    margin: 100px 0 80px;
+}
+
+.middle .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.middle i {
+    color: #F1630E;
+}
+
+.middle h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.middle p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*********8 start last section **********/
+.last{
+    margin-bottom: 50px;
+}
+.last .col-md-7 {
+    margin-top: 30px;
+}
+
+.last h2 {
+    color: #443;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.last h2 span{
+    color: #F1630E
+}
+.last p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+.last button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.last button a,
+.last button a:hover{
+    color: #eee;
+    text-decoration: none;
+}
+
+/*   media query for about page  */
+
+@media (max-width: 767px){
+    .upper h2{
+        font-size: 25px;
+    }
+    .upper p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .upper .team-image{
+        height: 200px;
+    }
+    .middle {
+        margin: 66px 0 40px;
+    }
+    
+    .middle p{
+        width: 70%;
+    }
+    
+    .last h2{
+        font-size: 25px;
+    }
+    .last p{
+        color: #454545;
+        font-size: 14px;
+    }
+    .last img{
+        height: 200px;
+    }
+    .last button {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:768px) and (max-width: 991px){
+    .upper .team-image{
+        height: 300px;
+    }
+    .upper p{
+        font-size: 16px;
+    }
+    .middle {
+        margin: 66px 0 40px;
+    }
+    
+    .last img{
+        height: 300px;
+    }
+}
+/*********************** START FAQ ****************/
+
+.top {
+    margin-bottom: 20px;
+}
+
+.top h1 {
+       font-size: 40px;
+    margin-bottom: 15px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.top p {
+   color: #343434;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+
+/*************** START ACORDION PANELS ************/
+.panel-group {
+    margin-bottom: 70px;
+}
+#accordion h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+#accordion .panel-heading a:after {
+
+    content: "\e114";
+    float: right;
+    font-family: 'Glyphicons Halflings';
+    color: #F1630E;
+}
+
+#accordion .panel-heading a.collapsed:after {
+    content: "\e080";
+    float: right;
+    font-family: 'Glyphicons Halflings';
+}
+
+#accordion .panel-body {
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px){
+    .top h1{
+        font-size: 25px;
+        margin-top: 30px;
+    }  
+    .top p {
+    font-size: 16px;
+    width: 65%;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    }
+    #accordion h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;;
+    padding: 10px;
+
+    }
+    #accordion .panel-body {
+    color: #343434;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+}
